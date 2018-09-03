@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script                 src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script                 src="https://code.jquery.com/jquery-3.3.1.slim.min.js"                          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script                 src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="webgl" class="col-8">
+
+                </div>
+                <div class="col-4">
+                    <script type="text/javascript">
+                    </script>
+
+                    <button id="reset" type="button" class="btn btn-primary"   onclick="Reset()" >Reset</button>
+
+                        <button id="Btn1" type="button" class="btn btn-primary"   onclick="move()" >Start</button>
+
+                       <button id="Btn2" type="button" class="btn btn-secondary" onclick="stop()" >Stop</button>
+
+                   <!-- <li><input type="checkbox" id="myCheck">
+                    <button onclick="check()">Nothalt</button></li>
+                 -->
+
+                        <button id="Btn3" type="button" class="btn btn-primary"   onclick="check()" >NOT TASTE</button>
+
+                       <button id="Btn4" type="button" class="btn btn-secondary" onclick="uncheck()" >GO TASTE</button>
+
+                                <form>
+                                <input type="text" name="enter" class="enter" value="" id="A"/>
+                                <input type="button" value="Move to Position" onclick="moveToPos()" id="AB"/>
+                            </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src='lib/perlin.js'></script>
+        <script src="lib/three.js"></script>
+        <script src="lib/dat.gui.min.js"></script>
+        <script src="lib/OrbitControls.js"></script>
+        <script src='lib/Tween.min.js'></script>
+
+
+        <script src='JS/Probe btn4.js'></script>
+    </body>
+</html>
