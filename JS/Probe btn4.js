@@ -1,3 +1,4 @@
+
 // Define Constants
 var moveObject    = false;
 var startMoving   = false;
@@ -65,8 +66,18 @@ function init() {
     Machine.addObject();
     Metal.addObject();
     obj2.addObject();
+
     // console.log(Machine);
 
+    // var loader = new THREE.ObjectLoader();
+    // loader.load(
+    // 'JS/model.json',
+    // function () {
+    //     var material = new THREE.MeshBasicMaterial();
+    //     var object = new THREE.Mesh( geometry, material );
+    //     scene.add( object );
+    // }
+    // );
     // Object control
     var folder3 = gui.addFolder('position');
     gui.add(Metal.object.position, 'x', -20,20);

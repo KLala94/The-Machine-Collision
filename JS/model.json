@@ -1,0 +1,39 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "06FAE215-A2F5-4D13-B12D-EBE1BB19EA1D",
+			"type": "BoxBufferGeometry",
+			"width": 0.185,
+			"height": 0.99,
+			"depth": 0.78,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "F93DFBEB-9788-41C4-9D5B-6D6483703E5B",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		}],
+	"object": {
+		"uuid": "DB428549-FA31-412B-B8FD-B43F4CDC5019",
+		"type": "Mesh",
+		"name": "Box",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0.94241,0,0,1],
+		"geometry": "06FAE215-A2F5-4D13-B12D-EBE1BB19EA1D",
+		"material": "F93DFBEB-9788-41C4-9D5B-6D6483703E5B"
+	}
+}
